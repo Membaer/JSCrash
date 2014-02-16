@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <!--meta http-equiv="refresh" content="2;URL=ohnejs.html"/ wird nach 2sek ausgeführt -->
+    <script type="text/javascript">
+        //location.href = "mitjs.html" - wird sofort ausgeführt - wenn kein js aktiv, dann kommt meta redirect
+        var alerto = "Hello World"
+        alert("internes Skript" + alerto);
+    </script>
+    <script src="eins.js"></script>
+</head>
+<body>
+    <a href="javascript:alert('Schicker Klick' + alerto2)">Klick auf Inline-Referenz</a>
+    <script type="text/javascript">
+        
+        alert("innerhalb vom HTML Skript" + alerto);
+    </script>
+    <noscript>
+        Bitte aktivieren Sie Javascript!
+    </noscript>
+</body>
+</html>

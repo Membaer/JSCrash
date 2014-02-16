@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    Aufruf von Javascript Befehlen von oben nach unten --> Reihenfolge beim Aufruf beachten <br/>
+    Wenn eine Variable erst unterhalb der Funktion (alert) initialisiert wird, dann wird die Funktion übersprungen <br/>
+    Es gibt nur vier Datentypen in JS - numbers, text, boolean, objects <br/>
+    Variablen können überall (ohne Deklaration) intialisiert und befüllt werden <br/>
+    Es gibt Kontrollstrukturen in JS - Entscheidungen, Schleifen und Sprunganweisungen <br />
+    Entscheidungen prüfen eine Kondition und führen je nach Entscheid einen Block aus (if, else)<br />
+    Schleifen prüfen eine Kondition und führen einen Block aus bis diese Kondition erfüllt ist (for(i=0,i<=10,i++){};) <br />
+    Sprunganweisungen können aus Funktionen, Schleifen etc. herausspringen <br />
+    Funktionen, dienen dazu JS bewusst / gezielt aufzurufen / zu starten (nicht einfach beim Laden der Seite) <br />
+    Funktionsbeschreibungen können mit "Platzhaltern" ergänzt werden, die erst beim Funktionsaufruf befüllt werden <br />
+    Funktionen können sich selbst aufrufen <br />
+    Funktionen können durch Eventhandler aufgerufen werden (onclick, onmouseout...) <br />
+    Objekte können per Arraynotation links[0] (erster Link) oder per Punktnotation links.mylink aufgerufen werden <br />
+    DOM - Objekte können per Namen, TagNamen etc. aufgerufen werden, bei Aufruf aller Bilder kann über Arraynotation das gewünschte Bild geholt werden <br />
+    DOM: document.images[2].href --> ändere den href vom dritten Bild <br />
+    DOM - Element können alle HTML Eigenschaften nutzen z.B. ("img").width / .height ... und z.B. innerHTML für Texte<br />
+    Um HTML Gerüst von Fkt. (onmouseover) freizuhalten, können anstelle von HTML Event-Handlern auch dieselben DOM  Event Handler genutzt werden <br />
+    DOM Event Handler dürfen nicht zu früh geladen werden, sonst könnte das DOM noch nicht komplett aufgebaut sein <br />
+    Besser ist die anonmyen Funktionen bei window.onload mit zu laden <br />
+    Funktionsreferenzen window.onload = init; - immer ohne Klammern <br />
+    Statt css, kann JS über das Style attribut die WErte setzen, aber namen ändern - js: backgroundColor vs css: background-color <br />
+    Bei einem Loop (for(){}) über elementsbytagname kann man den array index mit .length ansprechen <br />
+    AJAX kann Element vom SErver über Javascript nachfragen - dazu get anfrage an URL (Server) und Anzeige in HTML <br />
+
+
+</body>
+</html>
